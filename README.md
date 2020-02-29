@@ -1,3 +1,14 @@
+## Interview Problem 1
+
+Given 1 hour (while interviewer watches), code a todo list. 
+1. It should display a column for each user and his/her todos. 
+2. Follow styling given
+3. A button for adding a new todo to each user
+4. Arrows to move todos from one user to the next/previous
+5. Store the data locally for browser refresh
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
