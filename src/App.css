@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
+  height: 400px;
+  background-color: #eceeee;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  margin-top: 20px;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+  margin-left: 25px;
+}
+
+.column:last-of-type {
+  margin-right: 25px;
+}
+
+.column-header {
+  background-color: red;
+  height: 30px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.column:nth-of-type(1) .column-header {
+  background-color: #8e6e95;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column:nth-of-type(2) .column-header {
+  background-color: #39a59c;
+}
+
+.column:nth-of-type(3) .column-header {
+  background-color: #344759;
+}
+
+.column:nth-of-type(4) .column-header {
+  background-color: #e8741e;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 5px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #999999;
+}
+
+.add-todo {
+  padding: 10px;
 }
