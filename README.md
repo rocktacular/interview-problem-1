@@ -5,7 +5,10 @@ Given 1 hour (while interviewer watches), code a todo list.
 2. Follow styling given
 3. A button for adding a new todo to each user
 4. Arrows to move todos from one user to the next/previous
-5. Store the data locally for browser refresh
+5. Store the data locally in case of browser refresh
+
+Here is the end result.
+![image](https://user-images.githubusercontent.com/10144236/77827292-bcc26e00-70e2-11ea-8d11-72a6cc08f705.png)
 
 ---
 
